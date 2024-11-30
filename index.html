@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+
+<div class="root">
+    <div class="container">
+
+        <div class="cancel_logo">
+            <div class="logo_pos">
+                <img src="black-x-10353.svg" alt="" id="close_btn">
+            </div>
+        </div>
+
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="pinterest-logo">
+        </div>
+        <div class="wel-text"><h1>Вітаємо в Pinterest</h1></div>
+        <div class="block-email">
+            <h6>Електронна адреса</h6>
+            <input type="email" class="form-control" placeholder="Електронна пошта" aria-label="Username" aria-describedby="basic-addon1" id="input_email">
+            
+        </div>
+
+        <div class="block-password">
+            <h6>Пароль</h6>
+            <div class="input-group mb-3">
+                <input type="password" class="form-control" placeholder="Пароль" aria-label="Password" aria-describedby="button-addon2" id="input_password">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2" >
+
+                    <img src="eye.png" alt="" id="hidden_password_icon">
+                    <img src="hidden.png" alt="" id="open_password_icon">
+                    
+                </button>
+            </div>
+            <h5>Забули пароль?</h5>
+        </div>
+
+        <button type="button" class="btn btn-danger" id="btn_log_in">Увійти</button>
+
+        <h3>Або</h3>
+
+
+        <button type="button" class="btn btn-primary" id="btn_facebook">
+
+                <img src="facebook_logo.png" alt="" id="facebook_logo">
+                Продовжити з Facebook
+
+
+        </button>
+
+
+        <button type="button" class="btn btn-light" id="btn_google">
+            <img src="Google__G__logo.svg.png" alt="" id="google_logo">
+            Продовжити з Google
+        </button>
+
+        <div class="licence" align="center">
+            Продовжуючи, ви приймаєте положення основних документів Pinterest —
+            <a href="#" class="text_hover"><b>Умови надання послуг</b></a> і <a href="#" class="text_hover"><b>Політику конфіденційності</b></a>, і підтверджуєте, що прочитали їх.
+            <a href="#" class="text_hover"><b>Повідомлення</b></a>.
+        </div>
+        <hr>
+        <div class="registration"><a href="" class="text_hover">Ще не зареєструвалися в Pinterest? Зареєструватися</a></div>
+        <div class="organisation">Ви представник організації? <a href="" class="text_hover"><b>Вам сюди</b></a></div>
+
+
+    </div>
+</div>
+
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
